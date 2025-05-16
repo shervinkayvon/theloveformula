@@ -1,0 +1,6 @@
+flask==2.0.1
+pandas
+sqlalchemy
+psycopg2-binary
+scikit-learn
+numpy 

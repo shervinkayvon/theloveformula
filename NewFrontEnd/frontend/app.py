@@ -24,7 +24,7 @@ app.secret_key = "hihi"
 #################################################
 
 
-URI = "postgres://rhjtenpwhdlbjl:4d3153a71d04ee752de8aab6fb6ac3baaff5fe615aa7a6223845aab661e0c6af@ec2-34-237-89-96.compute-1.amazonaws.com:5432/d1l8p7t7cs19l8"
+URI = "postgresql://localhost/theloveformula"
 
 engine = create_engine(URI, connect_args={'connect_timeout': 30}) #added 30 sec connection timeout.
 
